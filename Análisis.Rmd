@@ -1,0 +1,12 @@
+---
+title: "Análisis"
+author: "Joaquín Rodrigo Ponce de León Conconi"
+date: "3/28/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F)
+```
+Introducción
+La pobreza y la riqueza han sido temas que se han tratado de entender y solucionar. En el mundo hay alrededor  
