@@ -16,7 +16,7 @@ el PIB per cápita, tasa de desempleo, tasa de inflación, salarios mínimos, ec
 
 PIB real
 
-Se realizó un análisis de datos del PIB real para Bolivia y Canadá. La base obtenida de la referencia [2], fue previamente depurada para tener solamente los datos de los países de interés, ya que el banco de datos tenía información muchos otros países. Los datos recopilados representan la tasa de crecimiento anual porcentual del PIB a precios de mercado en moneda local, a precios constantes. Los datos están expresados en dólares de EE. UU. a precios constantes del año 2010 [2].
+Se realizó un análisis de datos de la tasa del PIB real para Bolivia y Canadá. La base de datos fue obtenida de la referencia [2] y fue previamente depurada para tener solamente los datos de los países de interés, ya que el banco de datos tenía información muchos otros países. Los datos recopilados representan la tasa de crecimiento anual porcentual del PIB a precios de mercado en moneda local, a precios constantes. Los datos están expresados en dólares estadounidenses a precios constantes del año 2010 [2].
 
 ```{r}
 #Se llama a la librería readxl, para poder leer el Excel con los datos 
