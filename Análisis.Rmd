@@ -6,7 +6,31 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = F)
+knitr::opts_chunk$set(echo = T)
 ```
+
 Introducción
-La pobreza y la riqueza han sido temas que se han tratado de entender y solucionar. En el mundo hay alrededor  
+
+La pobreza y la riqueza han sido temas que se han tratado de entender y solucionar. Se estima que en el mundo hay alrededor de 689 millones de personas viven en pobreza extrema (1.9 dólares o menos al día) [1]. Es por ello que se realizó un estudio entre Bolivia, un país de bajo ingreso económico, y Canadá (un país con un alto ingreso económico). El proyecto tiene como objetivo determinar, de manera general, qué hace que un país sea rico o pobre, analizando el PIB real, 
+el PIB per cápita, tasa de desempleo, tasa de inflación, salarios mínimos, economía informal, desigualdad, pobreza, corrupción, y otras variables de Canadá y Bolivia. Para analizar los datos, se utilizó el lenguaje de programación R.
+
+```{r}
+#Se llama a la librería readxl, para poder leer el Excel con los datos 
+#recopilados de la referencia [2].
+library(readxl)
+pib_real <- read_excel("Crecimiento del PIB (% anual).xls")
+head(pib_real)
+```
+
+
+
+
+
+Referencias
+
+[1] Peer, A. (2020). Global Poverty: Facts, FAQs, and how to help. World Vision. Recuperado de https://www.worldvision.org/sponsorship-news-stories/global-poverty-facts#how-many
+
+[2] Crecimiento del PIB (% anual) - Canada, Bolivia. (s.f.). Banco Mundial. Recuperado de https://datos.bancomundial.org/indicador/NY.GDP.MKTP.KD.ZG?locations=CA-BO
+
+
+
