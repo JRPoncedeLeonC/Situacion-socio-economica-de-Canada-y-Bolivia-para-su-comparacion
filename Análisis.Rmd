@@ -72,9 +72,8 @@ pib_rl %>% gather(key = "Country", value = "real_pib", c(-year_num))%>%
   geom_line()
 ```
 
-Se puede observar que de 2010 a 2019, en promedio Bolivia tiene una tasa de PIB real más alta que la de Canadá (4.647 y 2.1699, respectivamente). No obstante, Bolivia ha sido más irregular en su tasa de crecimiento del PIB real, ya que su rango de crecimiento es de 2.217 a 6.796 (6.796-2.217=4.579); mientras que Canadá se ha mantenido más constante debido al rango, que es de 0.6592 a 3.1707 (3.1707-0.6592=2.5115), el cual representa aproximadamente el 55% del rango de Bolivia. 
+Se puede observar que de 2010 a 2019, en promedio Bolivia tiene una tasa de crecimiento de PIB real más alta que la de Canadá (4.647 y 2.1699, respectivamente). No obstante, Bolivia ha sido más irregular en su tasa de crecimiento del PIB real, ya que su rango de crecimiento es de 2.217 a 6.796 (6.796-2.217=4.579); mientras que Canadá se ha mantenido más constante debido al rango, que es de 0.6592 a 3.1707 (3.1707-0.6592=2.5115), el cual representa aproximadamente el 55% del rango de Bolivia. La gráfica de Bolivia representa más volatilidad que la de Canadá, lo cual puede deberse a que el gobierno no fija políticas que ayuden al crecimiento de la economía. Por otro lado, el gráfico de Canadá muestra menos volatilidad, posiblemente, por las políticas que ha establecido el gobierno para ayudar al crecimiento económico.
 
-Sin embargo, incluso con estos datos, no se puede diferenciar entre un país de ingresos bajos y uno de ingresos altos debido a que la tasa del producto interno bruto real no toma en cuenta la inflación, dado que es la producción de bienes y servicios en un país pero a precios constantes. 
 
 
 Referencias
